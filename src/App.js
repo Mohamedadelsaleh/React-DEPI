@@ -20,6 +20,7 @@ import Counter from './Components/HooksExamples/UseStateHookExamples/StateClassE
 import StringWithHooks from './Components/HooksExamples/UseStateHookExamples/StringWithHooks';
 import SimpleExmple from './Components/HooksExamples/UseReducerHook/SimpleExmple';
 import ComplexExample from './Components/HooksExamples/UseReducerHook/ComplexExample';
+import KhoulyComponent from './Components/HooksExamples/KhoulyComponenet/KhoulyComponent';
 
 export const RoadContext = React.createContext();
 
@@ -89,7 +90,7 @@ function App() {
           <ComponenetC />
       </RoadContext.Provider>
       <SimpleExmple />*/}
-      <ComplexExample />
+      <KhoulyComponent />
     </div>
   );
 }
